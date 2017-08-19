@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 const bullet_scene = preload("res://scenes/bullet.tscn")
-const BULLET_SPEED = 1000.0
+const BULLET_SPEED = 2000.0
 
 const charged_particle_scene = preload("res://scenes/charged_particle.tscn")
 
@@ -32,6 +32,10 @@ func _shoot_bullet():
 	world.add_child(bullet)
 	bullet.set_global_pos(pos)
 	bullet.set_vel(shoot_vec)
+
+    # Scale bullet based on charge level
+	var scale = 2.0 * charge_level / max_charge + 1.0
+	bullet.set_scale(Vector2(scale, scale))
 
 # Function to check whether the shoot button is down, change charging shot
 # state etc.
