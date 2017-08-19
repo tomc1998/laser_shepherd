@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 const sheep_class = preload("res://scripts/behaviour_sheep.gd")
+const blood = preload("res://scenes/blood.tscn")
 
 var vel = Vector2(0, 0)
 
@@ -22,6 +23,9 @@ func _fixed_process(delta):
 		var collider = get_collider()
 		if collider extends sheep_class:
 			collider.queue_free()
+			var b = blood.instance()
+			b.set_global_pos(get_global_pos())
+			get_node("/root/root/blood_layer").add_child(b)
 
 func _ready():
 	set_fixed_process(true)

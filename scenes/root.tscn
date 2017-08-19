@@ -96,4 +96,11 @@ transform/pos = Vector2( 657.002, 128.001 )
 
 [node name="marker" parent="." instance=ExtResource( 3 )]
 
+[node name="blood_layer" type="CanvasLayer" parent="."]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+
 
