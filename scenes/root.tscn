@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=1]
+[gd_scene load_steps=4 format=1]
 
 [ext_resource path="res://scenes/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/sheep.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/marker.tscn" type="PackedScene" id=3]
 
 [node name="root" type="Node2D"]
 
@@ -92,5 +93,7 @@ transform/pos = Vector2( 646.002, 196.001 )
 [node name="sheep20" parent="." instance=ExtResource( 2 )]
 
 transform/pos = Vector2( 657.002, 128.001 )
+
+[node name="marker" parent="." instance=ExtResource( 3 )]
 
 

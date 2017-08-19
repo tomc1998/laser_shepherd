@@ -6,7 +6,7 @@
 const sheep_class = preload("res://scripts/behaviour_sheep.gd")
 
 # The size of the angle in radians allowed for a group of sheep.
-const ANGLE_SIZE = PI/2.0
+const ANGLE_SIZE = PI*2.0/3.0
 
 # Used in the get_angle function.
 class Angle:
