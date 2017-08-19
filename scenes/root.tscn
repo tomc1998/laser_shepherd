@@ -13,4 +13,84 @@ transform/pos = Vector2( 318.001, 188.001 )
 
 transform/pos = Vector2( 610.002, 193.001 )
 
+[node name="sheep1" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 608.002, 157.001 )
+
+[node name="sheep2" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 553.002, 143.001 )
+
+[node name="sheep3" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 559.002, 195.001 )
+
+[node name="sheep4" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 516.002, 170.001 )
+
+[node name="sheep5" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 571.002, 166.001 )
+
+[node name="sheep6" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 595.002, 128.001 )
+
+[node name="sheep7" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 552.002, 115.001 )
+
+[node name="sheep8" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 515.002, 136.001 )
+
+[node name="sheep9" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 588.002, 94.001 )
+
+[node name="sheep10" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 626.002, 139.001 )
+
+[node name="sheep11" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 653.002, 168.001 )
+
+[node name="sheep12" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 631.002, 230.001 )
+
+[node name="sheep13" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 581.002, 224.001 )
+
+[node name="sheep14" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 518.002, 197.001 )
+
+[node name="sheep15" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 477.002, 146.001 )
+
+[node name="sheep16" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 486.002, 98.001 )
+
+[node name="sheep17" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 529.002, 90.001 )
+
+[node name="sheep18" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 630.002, 102.001 )
+
+[node name="sheep19" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 646.002, 196.001 )
+
+[node name="sheep20" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 657.002, 128.001 )
+
 

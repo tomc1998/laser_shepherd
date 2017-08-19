@@ -5,7 +5,7 @@ const BULLET_SPEED = 2000.0
 
 const charged_particle_scene = preload("res://scenes/charged_particle.tscn")
 
-var walk_speed = 120
+var walk_speed = 140
 var vel = Vector2(0, 0)
 
 # True if shoot button down. We walk slower, and when released, shot is fired.
@@ -28,7 +28,7 @@ func _shoot_bullet():
 	var shoot_vec = target - pos
 	shoot_vec = shoot_vec.normalized() * BULLET_SPEED
 	var bullet = bullet_scene.instance()
-	var world = self.get_node("/root")
+	var world = self.get_node("/root/root")
 	world.add_child(bullet)
 	bullet.set_global_pos(pos)
 	bullet.set_vel(shoot_vec)
