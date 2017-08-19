@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+const sheep_class = preload("res://scripts/behaviour_sheep.gd")
+
 var vel = Vector2(0, 0)
 
 var lifetime = 50.0
@@ -16,7 +18,10 @@ func _fixed_process(delta):
 		return
 
 	move(vel * delta)
+	if is_colliding():
+		var collider = get_collider()
+		if collider extends sheep_class:
+			collider.queue_free()
 
 func _ready():
 	set_fixed_process(true)
-	pass
