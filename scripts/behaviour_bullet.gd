@@ -24,7 +24,7 @@ func _fixed_process(delta):
 		if collider extends sheep_class:
 			collider.queue_free()
 			var b = blood.instance()
-			b.set_global_pos(get_global_pos())
+			b.set_global_pos(collider.get_global_pos())
 			get_node("/root/root/blood_layer").add_child(b)
 
 func _ready():
