@@ -28,7 +28,7 @@ func _shoot_bullet():
 	var shoot_vec = target - pos
 	shoot_vec = shoot_vec.normalized() * BULLET_SPEED
 	var bullet = bullet_scene.instance()
-	var world = self.get_node("../world")
+	var world = self.get_node("/root")
 	world.add_child(bullet)
 	bullet.set_global_pos(pos)
 	bullet.set_vel(shoot_vec)
